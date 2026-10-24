@@ -10,7 +10,7 @@ import { getUserSettingLazy } from "@api/UserSettings";
 import ErrorBoundary from "@components/ErrorBoundary";
 import definePlugin, { OptionType } from "@utils/types";
 import { React, Text } from "@webpack/common";
-import type { Message } from "discord-types/general";
+import type { Message } from "@vencord/discord-types";
 
 import { knownHosts } from "./knownHosts";
 import { knownVideoIds } from "./knownVideoIDs";
